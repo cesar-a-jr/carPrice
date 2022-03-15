@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Smooch Sans', sans-serif;}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: #132742;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modoDeJogo{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.title{
+    color: #ffffff;
+    font-size: 52px;
+
+}
+
+.description{ 
+    color: #f3f3f3;
+    font-size: 22px;
+
+}
+
+img{
+    width: 100px;
+}
+
+.card{
+    margin: 10px;
+
+}
+.btn{
+    color: #ffff;
+    border: 1px solid #fff;
+    width: 10em;
+}
+
+.btn:hover{
+    transition: 1s;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #132742;
+    background-color: #fff;
+}  
